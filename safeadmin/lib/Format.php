@@ -51,6 +51,12 @@ class Format{
         echo "<pre>";
         print_r($str);
         echo "</pre>";
+    }
+    
+    public function debugx($str){
+        echo "<pre>";
+        print_r($str);
+        echo "</pre>";
         die();
     }
 }

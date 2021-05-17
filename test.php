@@ -12,6 +12,8 @@ $db->insert('employee',[
 ]);
 
 echo "Insert result is : ";
-print_r($db->getResult());
+print_r($db->getResult())
+
+
 
 ?>
